@@ -5,7 +5,7 @@ function go() {
     });
 }
 
-function showCircle(cx, cy, radius, callback) {
+function showCircle(cx, cy, radius) {
     let div = document.createElement('div');
     div.style.width = 0;
     div.style.height = 0;
